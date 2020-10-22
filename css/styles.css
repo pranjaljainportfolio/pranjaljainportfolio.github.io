@@ -1,0 +1,118 @@
+body{
+  font-family: 'IBM Plex mono', monospace;
+  font-size: 15px;
+}
+ul,body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  top: 75px;
+  position: relative;
+  margin-bottom: 200px;
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+      background-position-y: -140px;
+}
+h1,h2,.skills-list{
+  font-family: 'Inknut antiqua', serif;
+  font-weight: normal;
+}
+h1{
+  font-size: 80px;
+  line-height: 120%;
+}
+h2{
+  font-size: 30px;
+}
+img{
+  max-width: 100%;
+}
+p{
+  line-height: 150%;
+}
+nav{
+  background-color: #dbebf4;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+nav ul{
+  text-align: center;
+  padding: 30px;
+}
+ul li{
+  list-style: none;
+  margin: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.button{
+  border: 1px solid black;
+  display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+}
+figcaption{
+  font-size: 10px;
+  margin-top: 10px;
+}
+.skills-list{
+  text-align: center;
+  margin: 150px;
+  font-size: 30px;
+  line-height: 170%;
+}
+.dp-img{
+  max-width: 85%;
+}
+.project{
+  margin: 20px 0px;
+  padding: 50px;
+}
+.blue{
+  background-color: #dbebf4;
+
+}
+.project .button{
+  margin-top: 20px;
+}
+footer{
+  text-align: center;
+  margin: 100px;
+}
+footer h2{
+  margin-bottom: 100px;
+  line-height: 150%;
+}
+.righto{
+  text-align: right;
+}
+.empty-space{
+  width: 70px;
+  border-top: 1px solid black;
+  top: -5px;
+  position: relative;
+}
